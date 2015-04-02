@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AppvContext-Web.config Connection String" description="AppvContext Connection String used in web.config by the application to access the database." defaultValue="Data source=iisdev-02;initial catalog=AppvContext;integrated security=True;multipleactiveresultsets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\fs01\\mhabibal\$\\Dokumente\\Visual\ Studio\ 2013\\Projects\\ZDVApps\\ZDVApps\.WebService\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AppvContext']/@connectionString" />
+  </parameter>
+</parameters>

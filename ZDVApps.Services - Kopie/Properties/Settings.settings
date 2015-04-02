@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ZDVApps.Services.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ActiveDirectoryContainerApproval" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=Approval,OU=AppV5,OU=GRP,OU=User,DC=Uni-Mainz,DC=DE</Value>
+    </Setting>
+    <Setting Name="ActiveDirectoryContainerSelfService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=Selfservice,OU=AppV5,OU=GRP,OU=User,DC=Uni-Mainz,DC=DE</Value>
+    </Setting>
+    <Setting Name="ActiveDirectoryContainerUsers" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=User,DC=Uni-Mainz,DC=DE</Value>
+    </Setting>
+    <Setting Name="ActiveDirectoryContainerAppVGroups" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=AppV5,OU=GRP,OU=User,DC=Uni-Mainz,DC=DE</Value>
+    </Setting>
+    <Setting Name="ActiveDirectoryContainerEmployee" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=MA,OU=UserPSC,OU=User,DC=Uni-Mainz,DC=DE</Value>
+    </Setting>
+    <Setting Name="ActiveDirectoryContainerAppVPackages" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OU=AppV5,OU=GRP,OU=User,DC=Uni-Mainz,DC=DE</Value>
+    </Setting>
+    <Setting Name="ActiveDirectoryGlobalContainer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DC=Uni-Mainz,DC=DE</Value>
+    </Setting>
+    <Setting Name="AppvPackages_AllPackages" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="API_Appv" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://appv5:2500/Packages</Value>
+    </Setting>
+    <Setting Name="API_Appv_File" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\appv5_packages.xml</Value>
+    </Setting>
+    <Setting Name="UsersPackagesRegion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ADUsers</Value>
+    </Setting>
+    <Setting Name="ADGroupsRegion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ADGroupsRegion</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

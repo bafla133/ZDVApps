@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ZDVApps.WebService.AdminWebService" Factory="ZDVApps.WebService.WcfServiceFactory" %>
